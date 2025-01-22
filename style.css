@@ -1,0 +1,137 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F8F6F1; /* Soft beige */
+    color: #34495E; /* Darker teal for text */
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #01171d; /* Muted teal */
+    color: #F8F6F1; /* Soft beige */
+    text-align: center;
+    padding: 2em 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #34495E; /* Darker teal */
+    list-style: none;
+    padding: 1em;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #F8F6F1; /* Soft beige */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #A8D5E2; /* Muted teal */
+}
+
+/* Sections */
+section {
+    padding: 2em;
+    margin: 2em 0;
+}
+
+/* Stream Section */
+.stream-section {
+    background-color: #FFFFFF; /* Off-white */
+    margin: 2em 0;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stream-section h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #34495E; /* Darker teal */
+}
+
+/* Cards for each subject */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+
+.card {
+    background-color: #F0F0F0; /* Off-white */
+    border-radius: 8px;
+    padding: 1.5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: #34495E; /* Darker teal */
+}
+
+.card p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Hover effect on cards */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #34495E; /* Darker teal */
+    color: #F8F6F1; /* Soft beige */
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+/* Button styles */
+button {
+    background-color: #A8D5E2; /* Muted teal */
+    color: #F8F6F1; /* Soft beige */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #34495E; /* Darker teal */
+}
+
